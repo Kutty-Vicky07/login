@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Nosifer&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+
+
+.bar {
+    color: white;
+    text-decoration: none;
+    /* border: 1px solid black;
+    width: fit-content; */
+}
+
+body {
+    background-image:url(heyyy.webp);
+    opacity: 0.9;
+    color: white;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    margin-left: 50px;
+    /* background-color: rgb(43, 16, 195); */
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+
+}
+
+.bar:hover {
+    color: black;
+}
+
+li:hover {
+    background-color: greenyellow;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.nav {
+    display: flex;
+    margin: 30px;
+    margin-left: 100px;
+    border-bottom: 1px solid white;
+  
+}
+
+.img {
+    display: flex;
+}
+
+.image {
+    height: 600px;
+    width: 900px;
+    float: right;
+    margin-top: -10px;
+    opacity: 0.7;
+
+}
+
+
+
+.title {
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-left: 60px;
+    color: aqua;
+}
+
+.para {
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 70px;
+    color: aquamarine; 
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+
+.sign {
+    background-color: rgb(14, 132, 234);
+    margin: 35px;
+    margin-left: 100px;
+    padding: 15px;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 750;
+    border-radius: 10px;
+    border: 2px solid black;
+
+}
+
+.sign:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+
+.icon {
+    margin: 50px;
+    display: flex;
+    margin-top: -5px;
+   
+}
+
+.follow {
+    margin-left: 30px;
+    font-size: 25px;
+    color: yellow;
+
+}
+
+h4 {
+    margin: 5px;
+    margin-left: 25px;
+}
+
+.follow:hover {
+    color: white;
+}
+
+.head {
+    text-transform: uppercase;
+    font-size: 80px;
+    margin-left: 120px;
+    font-family: "Nosifer", sans-serif;
+    color: rgb(208, 195, 195);
+
+}
+
+#overlayer {
+    background-color: rgb(9, 9, 9);
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+#overlayerbox {
+    border-radius: 5px;
+    background-color: rgb(114, 189, 195);
+    width: 20%;
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    z-index: 2;
+    text-align: center;
+    display: none;
+
+}
+
+#overlayerbox input {
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: large;
+
+}
+
+
+input:focus {
+    outline: none;
+}
+
+#overlayerbox h2 {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#overlayerbox button {
+    margin-top: 50px;
+    padding: 13px;
+    width: 150px;
+    border-radius: 7px;
+    background-color: rgb(109, 180, 208);
+    border: 2px solid black;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: aqua;
+}
